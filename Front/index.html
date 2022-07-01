@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="index.css" rel="stylesheet" href="">
+    <title>HEALTH TRACK</title>
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> HEALTH TRACK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Listar Gastos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="NovoGasto.html">Novo Gasto</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div>
+    <img src="https://images.prismic.io/monei/12934b25-cfad-4141-9a36-d32a02c65ad9_Fintech+vs+Traditional+Banks+Header+Image.png?auto=compress,format&rect=0,0,2278,1066&w=1248&h=584" class="img-fluid" alt="Responsive image">
+</div>
+<h2>Listar Gastos</h2>
+<div class="form-group col-4 botaoNovoGasto">
+    <br>
+    <a class="btn btn-success" href="NovoGasto.html">Novo Gasto</a>
+  </div>
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Data</th>
+            <th scope="col">Gasto (R$)</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>19/04/2022</td>
+            <td>R$70</td>
+            <td><a href="NovoGasto.html" class="btn btn-primary"><i class="fa fa-pencil"></i></a> &nbsp; &nbsp; <button onclick="return confirm('Tem certeza que deseja exlcuir?')" class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>16/04/2022</td>
+            <td>R$68</td>
+            <td><a href="NovoGasto.html" class="btn btn-primary"><i class="fa fa-pencil"></i></a> &nbsp; &nbsp; <button onclick="return confirm('Tem certeza que deseja exlcuir?')" class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>16/04/2022</td>
+            <td>R$30</td>
+            <td><a href="NovoGasto.html" class="btn btn-primary"><i class="fa fa-pencil"></i></a> &nbsp; &nbsp; <button onclick="return confirm('Tem certeza que deseja exlcuir?')" class="btn btn-danger"><i class="fa fa-trash"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
+     
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
